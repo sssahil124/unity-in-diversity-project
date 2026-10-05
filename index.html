@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#7a1a12">
+<title>Unity in Diversity · Gujarat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header class="nav" id="top">
+  <a class="brand" href="#top">Gujarat</a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  <nav id="menu">
+    <a href="#culture">Culture</a><a href="#food">Food</a><a href="#dance">Dance</a>
+    <a href="#festivals">Festivals</a><a href="#art">Art</a><a href="#places">Places</a><a href="#wildlife">Wildlife</a>
+  </nav>
+</header>
+ 
+<section class="hero">
+  <p class="flag">🇮🇳 Unity in Diversity</p>
+  <h1>GUJARAT</h1>
+  <p class="tag">“A Journey Through Culture, Colour &amp; Tradition”</p>
+  <p class="intro">Explore Gujarat through its food, festivals, traditional arts, dance, clothing, heritage and natural beauty.</p>
+  <a class="btn" href="#culture">Start exploring</a>
+  <div class="chips">
+    <a href="#food">🍽️ Food</a><a href="#dance">💃 Garba</a><a href="#places">🗿 Places</a><a href="#wildlife">🦁 Lions</a>
+  </div>
+</section>
+ 
+<section class="sec" id="glance">
+  <h2>Gujarat at a glance</h2>
+  <div class="grid2">
+    <div class="info"><b>📍 Location</b>Western India, on the Arabian Sea</div>
+    <div class="info"><b>🏛️ Capital</b>Gandhinagar</div>
+    <div class="info"><b>🗣️ Language</b>Gujarati</div>
+    <div class="info"><b>🌊 Coastline</b>Longest in mainland India, about 1,600 km</div>
+    <div class="info"><b>🦁 Wildlife</b>Asiatic Lion, found wild only here</div>
+    <div class="info"><b>🎭 Culture</b>Garba, Bandhani, Gujarati cuisine</div>
+    <div class="info wide"><b>🏛️ Heritage</b>Dholavira, Rani ki Vav, Champaner-Pavagadh and the historic city of Ahmedabad are UNESCO World Heritage sites</div>
+  </div>
+</section>
+ 
+<section class="sec alt" id="culture">
+  <h2>Culture</h2>
+  <p class="lead">Tap a card to learn more.</p>
+  <div class="grid" id="cultureGrid"></div>
+</section>
+ 
+<section class="sec" id="dance">
+  <h2>Dance &amp; Music</h2>
+  <div class="grid" id="danceGrid"></div>
+</section>
+ 
+<section class="sec alt" id="food">
+  <h2>Food</h2>
+  <p class="lead">Gujarati food balances sweet, salty and tangy in one plate. Most dishes are vegetarian, lightly spiced and built around gram flour, jaggery, yogurt and seasonal vegetables.</p>
+  <div class="grid" id="foodGrid"></div>
+</section>
+ 
+<section class="sec" id="clothing">
+  <h2>Traditional Clothing</h2>
+  <h3>Women</h3>
+  <div class="grid" id="womenGrid"></div>
+  <h3>Men</h3>
+  <div class="grid" id="menGrid"></div>
+</section>
+ 
+<section class="sec alt" id="art">
+  <h2>Art &amp; Handicrafts</h2>
+  <div class="grid" id="artGrid"></div>
+</section>
+ 
+<section class="sec" id="festivals">
+  <h2>Festivals</h2>
+  <p class="lead">Tap a festival to open it.</p>
+  <div class="list" id="festList"></div>
+</section>
+ 
+<section class="sec alt" id="places">
+  <h2>Places to Explore</h2>
+  <p class="lead">Tap a place to open it.</p>
+  <div class="list" id="placeList"></div>
+</section>
+ 
+<section class="sec" id="wildlife">
+  <h2>Wildlife</h2>
+  <div class="feature">
+    <div class="pic big" id="lionPic" data-e="🦁"></div>
+    <h3>The Asiatic Lion 🦁</h3>
+    <p>Gir National Park and the surrounding landscape of Saurashtra are the only wild home of the Asiatic lion. Once nearly extinct, the population has recovered through decades of conservation and community support, and now numbers in the hundreds.</p>
+  </div>
+  <div class="grid2">
+    <div class="info"><b>🌳 Forests</b>Dry deciduous forests of Gir</div>
+    <div class="info"><b>🌾 Grasslands</b>Banni grasslands of Kutch</div>
+    <div class="info"><b>🦩 Wetlands</b>Flamingos at Nal Sarovar and the Little Rann</div>
+    <div class="info"><b>🌊 Coast</b>Mangroves and marine life along the Gulf of Kutch</div>
+    <div class="info wide"><b>🫏 Indian Wild Ass</b>The Little Rann of Kutch is the last home of this rare animal, called Ghudkhur.</div>
+  </div>
+</section>
+ 
+<section class="sec alt" id="gallery">
+  <h2>Gallery</h2>
+  <p class="lead">Tap any picture to enlarge it.</p>
+  <div class="gal" id="galGrid"></div>
+</section>
+ 
+<section class="sec" id="facts">
+  <h2>Did you know?</h2>
+  <div class="facts" id="factList"></div>
+</section>
+ 
+<footer class="end">
+  <h2>GUJARAT — ONE THREAD IN INDIA'S COLOURFUL TAPESTRY</h2>
+  <p>Different cultures. Different traditions. One India. 🇮🇳</p>
+</footer>
+ 
+<div class="lightbox" id="lb" hidden>
+  <button id="lbClose" aria-label="Close">✕</button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</div>
+ 
+<button class="up" id="up" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
