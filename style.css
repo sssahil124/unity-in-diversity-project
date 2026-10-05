@@ -98,3 +98,17 @@ details[open] summary{background:var(--sand)}
  .gal{grid-template-columns:repeat(4,1fr)}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+ 
+/* v2 additions */
+.fact-line{background:#fff3d6;border-left:4px solid var(--saffron);border-radius:8px;margin:0 14px 16px;padding:8px 10px!important;font-size:.9rem!important}
+.card .fact-line.more{display:none}
+.card.open .fact-line.more{display:block;animation:drop .3s ease}
+.dbody .fact-line,.feature .fact-line{margin:4px 16px 16px}
+.feature .fact-line{margin:4px 0 0}
+.feature p{margin-top:6px}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}
+.stats div{background:var(--maroon);color:#fff;border-radius:12px;padding:12px;text-align:center;font-size:.85rem}
+.stats b{display:block;font-family:Georgia,serif;font-size:1.5rem;color:var(--saffron)}
+.pic img{opacity:0;animation:fadein .5s forwards}
+@keyframes fadein{to{opacity:1}}
+@media(min-width:700px){.stats{grid-template-columns:repeat(4,1fr)}}
